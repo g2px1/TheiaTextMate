@@ -1,0 +1,25 @@
+{
+  "name": "Theia",
+  "displayName": "Theia",
+  "description": "Theia Programming language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "theia",
+      "aliases": ["Theia Programming language", "theia"],
+      "extensions": [".th"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "theia",
+      "scopeName": "source.th",
+      "path": "./syntaxes/theia.tmLanguage.json"
+    }]
+  }
+}
